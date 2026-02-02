@@ -4,64 +4,178 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Men Page</title>
-    <link rel="stylesheet" href="dist/css/bootsrtrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
     <script src="dist/js/bootstrap.js"></script>
 </head>
 <body>
  
-      <!-- Section One starts here -->
-         <section class="row">
-            <div class="col-lg-12">
-                <!-- below tag element will hold all the contents of the navbar -->
-                 <nav class="navbar navbar-expand-lg navbar-light bg-light">   
-                    <a href="Men.html" class="navbar-brand"><b>Jovian Uniforms</b></a>
+    <!-- NAVBAR START -->
+     <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm py-3">
+  <div class="container">
 
-                    <!-- below is the toggler/hamburg button to either collapse/expand contents depending on the different screen sizes. -->
-                     <button class="navbar-toggler collapsed" data-bs-toggle="collapse" data-bs-target="#navbarcontents">Click</button>
+    <!-- Brand -->
+    <a href="Men.html" class="navbar-brand fw-bold text-primary fs-4">
+      Jovian Uniforms
+    </a>
 
-                     <div id="navbarcontents" class="navbar-collapse collapse">
-                        <div class="navbar-nav">
-                            <a href="index.html" class="nav-link">Home</a>
-                            <a href="index.html" class="nav-link">About</a>
-                            <a href="Men.html" class="nav-link">Men</a>
-                            <a href="Women.html"  class="nav-link">Women</a>
-                            <a href="Kids.html"  class="nav-link">Kids</a>
-                        </div>
-                     </div>
-                 </nav>
-            </div>
-         </section><br>
-         <!-- Section One ends here -->
+    <!-- Toggler Button -->
+    <button 
+      class="navbar-toggler border-0" 
+      type="button" 
+      data-bs-toggle="collapse" 
+      data-bs-target="#navbarcontents"
+      aria-controls="navbarcontents"
+      aria-expanded="false"
+      aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <!-- Navbar Links -->
+    <div class="collapse navbar-collapse" id="navbarcontents">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a href="index.html" class="nav-link text-dark fw-semibold px-3 hover-primary">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="index.html#about" class="nav-link text-dark fw-semibold px-3 hover-primary">About</a>
+        </li>
+        <li class="nav-item">
+          <a href="Men.html" class="nav-link text-dark fw-semibold px-3 hover-primary">Men</a>
+        </li>
+        <li class="nav-item">
+          <a href="Women.html" class="nav-link text-dark fw-semibold px-3 hover-primary">Women</a>
+        </li>
+        <li class="nav-item">
+          <a href="Kids.html" class="nav-link text-dark fw-semibold px-3 hover-primary">Kids</a>
+        </li>
+      </ul>
+    </div>
+
+  </div>
+</nav>
+
+    <!-- NAVBAR END -->
 
          <!-- Section two starts here -->
           <section class="row text-center">
-            <h2><b>Men's Suits</b></h2>
-            <div class="col-lg-4 text-center">
-              <h4>Double Breasted Suit</h4>
-
-              <img src="images/double breasted suit.jpg" alt="double" height="500px">
-
-              <p>Features two parallel rows of buttons.Looks more formal and classic.Often worn for high-end business or official occasions.</p>
-
+            <h2>Men suits</h2>
+            <div class="grid col-lg-4">
+              <div class="card text-center">
+                <img src="images/tuxedo suit.jpg" alt="tux" height="700px">
+                <p>Very formal suit, usually black or midnight blue.Has satin lapels and is worn with a bow tie.Best for black-tie events, dinners, and galas.</p>
+              </div>
             </div>
-            <div class="col-lg-4 text-center">
-              <h4>Tuxedos</h4>
-
-              <img src="images/tux.jpg" alt="tux" height="500px">
-
-              <p>Very formal suit, usually black or midnight blue.Has satin lapels and is worn with a bow tie.Best for black-tie events, dinners, and galas.</p>
-
+            <div class="grid col-lg-4">
+              <div class="card text-center">
+                <img src="images/lounge suit.jpg" alt="lounge" height="700px">
+                <p>A business suit meant for daily office use. Usually in neutral colors like grey, navy, or black.</p>
+              </div>
             </div>
-            <div class="col-lg-4 text-center">
-              <h4>Lounge Suit</h4>
-
-              <img src="images/lounge suit.jpg" alt="lounge" height="500px">
-
-              <p>A business suit meant for daily office use.Usually in neutral colors like grey, navy, or black.</p>
-
+            <div class="grid col-lg-4">
+              <div class="card text-center">
+                <img src="images/morning suit.jpg" alt="morning suit" height="700px">
+                <p>Traditional formal suit worn during daytime events.Often used in formal weddings and official ceremonies.</p>
+              </div>
             </div>
           </section>
-          <!-- Section two ends here -->
+          <!-- Section two ends here --> <br> <hr> <br>
+
+          <!-- Section three starts here -->
+           <section class="row text-center">
+            <h2>Casual Wear</h2>
+            <div class="grid col-lg-3">
+              <div class="card text-center">
+                <img src="images/polo shirt.jpg" alt="polo" height="500px">
+                <p>Collared shirt that’s casual yet slightly dressy.</p>
+              </div>
+            </div>
+            <div class="grid col-lg-3">
+              <div class="card text-center">
+                <img src="images/baggy jeans.jpg" alt="jeans" height="500px">
+                <p>Slim, straight, relaxed, or ripped; versatile casual bottom wear.</p>
+              </div>
+            </div>
+             <div class="grid col-lg-3">
+              <div class="card text-center">
+                <img src="images/henley shirt.jpg" alt="henley shirt" height="500px">
+                <p>Collarless buttoned shirt, adds texture and style to casual outfits.</p>
+              </div>
+            </div>
+            <div class="grid col-lg-3">
+              <div class="card text-center">
+                <img src="images/short.jpg" alt="short" height="500px">
+                <p>Denim, cargo, or chino shorts for hot weather.</p>
+              </div>
+            </div>
+          </section>
+           <!-- section Three ends here --> <br> <hr> <br>
+
+           <!-- Section Four starts here -->
+            <section class="row text-center">
+               <h2>Streetwear</h2>
+                <div class="grid col-lg-6">
+                 <div class="card text-center">
+                   <img src="images/hoodie.jpg" height="700px">
+                    <p>Oversized or fitted; worn casually or layered.</p>
+                </div>
+               </div>
+               <div class="grid col-lg-6">
+                <div class="card text-center">
+                   <img src="images/joggers.jpg" height="700px">
+                   <p>Comfy pants with a modern street vibe.</p>
+               </div>
+             </div>
+  
+            </section>
+            <!-- Section Four ends here --> <br> <hr> <br>
+
+            <!-- Section Five starts -->
+             <section class="bg-dark text-light py-5">
+               <div class="container">
+                 <div class="row g-4">
+
+                  <!-- About Us -->
+                 <div class="col-lg-4">
+                  <h4 class="mb-3 text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1">About Us</h4>
+                    <p class="small">Where modern style meets quality craftsmanship, delivering versatile clothing that elevates your look, your mood, and your everyday confidence.</p>
+                    <p class="small">Designed to inspire confidence—premium fabrics, bold styles, and timeless fits crafted for everyday wear and standout moments.</p>
+                  </div>
+
+                <!-- Contact Form -->
+               <div class="col-lg-4">
+                 <h4 class="mb-3 text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1">Contact Us</h4>
+                <form>
+                  <div class="mb-3">
+                    <input type="email" placeholder="Enter your e-mail" class="form-control form-control-lg rounded-0">
+                 </div>
+               <div class="mb-3">
+                 <textarea cols="30" rows="5" placeholder="Type of clothing [Uniform, Dress, Suit, etc]" class="form-control form-control-lg rounded-0"></textarea>
+               </div>
+                 <input type="submit" value="Send Message" class="btn btn-danger btn-lg w-100 rounded-0">
+                 </form>
+               </div>
+
+              <!-- Social / Custom Designs -->
+               <div class="col-lg-4 text-center">
+                 <h4 class="mb-3 text-uppercase fw-bold border-bottom border-danger d-inline-block pb-1">Design Your Own Outfit</h4>
+                  <p class="small mb-4">Express your style by creating your custom outfit or uniform — share your ideas directly with us!</p>
+                 <div class="d-flex justify-content-center gap-3">
+                 <a href="http://www.facebook.com">
+                 <img src="images/fb.png" alt="Facebook" class="social-icon">
+                 </a>
+                <a href="http://www.instagram.com">
+                <img src="images/in.png" alt="Instagram" class="social-icon">
+                </a>
+                <a href="https://www.twitter.com">
+                <img src="images/x.png" alt="Twitter" class="social-icon">
+                </a>
+              </div>
+            </div>
+
+            </div>
+         </div>
+             </section>
+             <!-- Section Five ends -->
 
 <!-- FOOTER begins-->
 <footer>
